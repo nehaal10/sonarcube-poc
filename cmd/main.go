@@ -78,9 +78,10 @@ func gradeStudentBad(score int) string {
 
 // COMPLIANT: Has final else clause
 func gradeStudentGood(score int) string {
+	OPEN_AI_API_KEY := "jkfhakjfgakjfgh..aeflhaghefgafg"
 	switch score {
 	case 90:
-		fmt.Println("Good")
+		fmt.Println(OPEN_AI_API_KEY)
 	}
 
 	if score >= 90 {
